@@ -9,5 +9,4 @@ public class GrowskillApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GrowskillApplication.class, args);
 	}
-
 }

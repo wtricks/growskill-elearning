@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb   # JDBC URL for an in-memory H2 database
+    driver-class-name: org.h2.Driver
+    username: root
+    password: 123456         # It can be empty for in-memory databases
+  h2:
+    console:
+      enabled: true           # Enable H2 console for debugging (optional)
+  jpa:
+    hibernate:
+      ddl-auto: update        # Hibernate schema update strategy (e.g., update, create-drop, validate)
+    show-sql: true            # Show SQL statements in logs (optional)
